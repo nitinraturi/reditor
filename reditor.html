@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Reditor</title>
+  <link rel="stylesheet" href="./reditor.css">
+</head>
+
+<body>
+  <div class="weditor">
+    <div class="toolbar">
+      <div class="line">
+
+        <div class="ebox">
+          <span class="btn iccon smaller" data-action="bold" title="Bold">
+            <img loading="lazy" src="https://image.flaticon.com/icons/svg/25/25432.svg">
+          </span>
+          <span class="btn iccon smaller" data-action="italic" title="Italic">
+            <img loading="lazy" src="https://image.flaticon.com/icons/svg/25/25392.svg">
+          </span>
+          <span class="btn iccon smaller" data-action="underline" title="Underline">
+            <img loading="lazy" src="https://image.flaticon.com/icons/svg/25/25433.svg">
+          </span>
+          <span class="btn iccon smaller" data-action="strikeThrough" title="Strike through">
+            <img loading="lazy" src="https://image.flaticon.com/icons/svg/25/25626.svg">
+          </span>
+        </div>
+
+        <div class="ebox">
+          <span class="btn iccon has-submenu">
+            <img loading="lazy" src="https://image.flaticon.com/icons/svg/25/25351.svg">
+            <div class="submenu">
+              <span class="btn iccon" data-action="justifyLeft" title="Justify left">
+                <img loading="lazy" src="https://image.flaticon.com/icons/svg/25/25351.svg">
+              </span>
+              <span class="btn iccon" data-action="justifyCenter" title="Justify center">
+                <img loading="lazy" src="https://image.flaticon.com/icons/svg/25/25440.svg">
+              </span>
+              <span class="btn iccon" data-action="justifyRight" title="Justify right">
+                <img loading="lazy" src="https://image.flaticon.com/icons/svg/25/25288.svg">
+              </span>
+              <span class="btn iccon" data-action="formatBlock" title="Justify block">
+                <img loading="lazy" src="https://image.flaticon.com/icons/svg/25/25181.svg">
+              </span>
+            </div>
+          </span>
+          <span class="btn iccon" data-action="insertOrderedList" title="Insert ordered list">
+            <img loading="lazy" src="https://image.flaticon.com/icons/svg/25/25242.svg">
+          </span>
+          <span class="btn iccon" data-action="insertUnorderedList" title="Insert unordered list">
+            <img loading="lazy" src="https://image.flaticon.com/icons/svg/25/25648.svg">
+          </span>
+          <span class="btn iccon" data-action="outdent" title="Outdent">
+            <img loading="lazy" src="https://image.flaticon.com/icons/svg/25/25410.svg">
+          </span>
+          <span class="btn iccon" data-action="indent" title="Indent">
+            <img loading="lazy" src="https://image.flaticon.com/icons/svg/25/25233.svg">
+          </span>
+
+        </div>
+        <div class="ebox">
+          <span class="btn iccon" data-action="insertHorizontalRule" title="Insert horizontal rule">
+            <img loading="lazy" src="https://image.flaticon.com/icons/svg/25/25232.svg">
+          </span>
+        </div>
+
+      </div>
+      <div class="line">
+
+        <div class="ebox">
+          <span class="btn iccon smaller" data-action="undo" title="Undo">
+            <img loading="lazy" src="https://image.flaticon.com/icons/svg/25/25249.svg">
+          </span>
+          <span class="btn iccon" data-action="removeFormat" title="Remove format">
+            <img loading="lazy" src="https://image.flaticon.com/icons/svg/25/25454.svg">
+          </span>
+        </div>
+
+        <div class="ebox">
+          <span class="btn iccon" data-action="code" title="Show HTML-Code">
+            <img loading="lazy" src="https://image.flaticon.com/icons/svg/25/25185.svg">
+          </span>
+        </div>
+
+      </div>
+    </div>
+    <div class="content-area">
+      <div class="visual" contenteditable>
+      </div>
+      <textarea class="html"></textarea>
+    </div>
+    <script src="./reditor.js" charset="utf-8"></script>
+    <p>* Icons made by Dave Gandy from www.flaticon.com is licensed by CC 3.0 BY</p>
+</body>
+
+</html>
